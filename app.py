@@ -11,11 +11,9 @@ from werkzeug.datastructures import  FileStorage
 import os
 import requests
 import ast
-from flask_cors import CORS
 import json
 
 app = Flask(__name__)
-CORS(app)
 #run_with_ngrok(app) 
 
 @app.route("/home", methods=['GET'])
