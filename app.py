@@ -15,7 +15,7 @@ import ast
 from flask_cors import CORS
 import json
 
-app = Flask(__name__,template_folder='painting-company-website-template')
+app = Flask(__name__)
 CORS(app)
 #run_with_ngrok(app) 
 
