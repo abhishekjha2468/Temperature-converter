@@ -10,7 +10,6 @@ from werkzeug.utils import secure_filename
 from werkzeug.datastructures import  FileStorage
 import os
 import requests
-from firebase import firebase
 import ast
 from flask_cors import CORS
 import json
